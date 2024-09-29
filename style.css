@@ -371,3 +371,133 @@ nav.navbar .nav-links a:hover {
   color: #fff;
   transition-duration: 1s;
 }
+
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: rgb(112, 160, 208);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.inside_container {
+  width: 95%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.map {
+  flex: 1;
+  height: 400px;
+  border: 10px solid #fff;
+  margin-right: 10px;
+}
+
+.map>iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.content>h2 {
+  font-size: 35px;
+}
+
+.content>h4 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.content>p {
+  font-size: 17px;
+}
+
+.inside_content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.inside_content>i {
+  width: 40px;
+  /* Adjusted for better size on smaller screens */
+  height: 40px;
+  /* Adjusted for better size on smaller screens */
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.para {
+  color: #fff;
+  font-size: 20px;
+}
+
+.para>a {
+  color: green;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .inside_container {
+    flex-direction: column;
+  }
+
+  .map,
+  .content {
+    height: 300px;
+    margin-right: 0;
+  }
+
+  .map {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .map,
+  .content {
+    height: 200px;
+  }
+
+  .inside_content>i {
+    width: 30px;
+    /* Further reduce icon size */
+    height: 30px;
+    /* Further reduce icon size */
+  }
+
+  .content>h2 {
+    font-size: 28px;
+    /* Reduce font size for smaller screens */
+  }
+
+  .content>h4 {
+    font-size: 32px;
+    /* Reduce font size for smaller screens */
+  }
+}
