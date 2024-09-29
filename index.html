@@ -10,12 +10,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
 
   <!-- Responsive Navbar -->
-  <nav class="navbar">
+  <nav class="navbar" data-aos="fade-down">
     <div class="logo">
       <a href="#">
         <p>PIZZA-SHOP</p>
@@ -37,38 +39,41 @@
   <div class="video_container">
     <video src="./video/pizza-l9d4u6u4.mp4" loop autoplay muted></video>
     <div class="overlay">
-      <h1>A delicious pizza that will delight your palate!</h1>
-      <button id="main_button">Order by phone</button>
+      <h1 data-aos="fade-left">A delicious pizza that will delight your palate!</h1>
+      <button id="main_button" data-aos="fade-right">Order by phone</button>
     </div>
   </div>
 
 
   <!-- Menu -->
-  <h1 class="Menu_h1">Menu</h1>
+  <h1 class="Menu_h1" data-aos="fade-right">Menu</h1>
   <div class="main_container">
     <div class="card">
-      <div class="perticular_card">
-        <img src="img/menu1.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu1.jpg" alt="" data-aos="zoom-in">
         <h3>Pizza</h3>
-        <p>Pizza - a dish of Italian cuisine, now widely distributed around the world. It is a flat pancake made of
+        <p data-aos="flip-left">Pizza - a dish of Italian cuisine, now widely distributed around the world. It is a flat
+          pancake made of
           yeast dough
           (focaccia), topped with tomato sauce, sprinkled with grated cheese (usually mozzarella) and herbs, baked in a
           very hot
           oven.</p>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu2.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu2.jpg" alt="" data-aos="zoom-in">
         <h3>Pancakes</h3>
-        <p>Pancake - a simple flour dish fried in a pan. Served pancakes can be sprinkled with sugar, powdered sugar or
+        <p data-aos="flip-left">Pancake - a simple flour dish fried in a pan. Served pancakes can be sprinkled with
+          sugar, powdered sugar or
           poured with
           sauce, although they are most often served with a filling, such as jam, sliced fruit, jam, cottage cheese,
           nutella or
           meat.</p>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu3.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu3.jpg" alt="" data-aos="zoom-in">
         <h3>Pasta</h3>
-        <p>Pasta as spaghetti. What is spaghetti? Spaghetti is a hot dish based on spaghetti noodles, served with
+        <p data-aos="flip-left">Pasta as spaghetti. What is spaghetti? Spaghetti is a hot dish based on spaghetti
+          noodles, served with
           tomato, cheese or
           other sauce. Spaghetti pasta is long (as long as 80 cm) strands made from durum wheat, a hard variety of
           wheat.</p>
@@ -81,31 +86,34 @@
 
 
   <!-- PIZZA -->
-  <h1 class="Menu_h1">PIZZA</h1>
+  <h1 class="Menu_h1" data-aos="fade-right">PIZZA</h1>
   <div class="main_container">
     <div class="card">
-      <div class="perticular_card">
-        <img src="img/menu1.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-up">
+        <img src="img/menu1.jpg" alt="" data-aos="zoom-in">
         <h3>Pizza Margherita</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 9,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu1.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-up">
+        <img src="img/menu1.jpg" alt="" data-aos="zoom-in">
         <h3>Sicilian Pizza</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 9,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu1.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-up">
+        <img src="img/menu1.jpg" alt="" data-aos="zoom-in">
         <h3>Neapolitan Pizza</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 9,99 USD</h3>
@@ -120,31 +128,34 @@
 
 
   <!-- Pancakes -->
-  <h1 class="Menu_h1">Pancakes</h1>
+  <h1 class="Menu_h1" data-aos="fade-right">Pancakes</h1>
   <div class="main_container">
     <div class="card">
-      <div class="perticular_card">
-        <img src="img/menu2.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down">
+        <img src="img/menu2.jpg" alt="" data-aos="zoom-in">
         <h3>Polish pancake</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 5,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu2.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down">
+        <img src="img/menu2.jpg" alt="" data-aos="zoom-in">
         <h3>Mexican pancake</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 5,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu2.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down">
+        <img src="img/menu2.jpg" alt="" data-aos="zoom-in">
         <h3>Armenian pancake</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 5,99 USD</h3>
@@ -153,37 +164,40 @@
     </div>
   </div>
 
-  <div class="button_container">
+  <div class="button_container" data-aos="fade-left">
     <button class="see_more">See more</button>
   </div>
 
 
   <!-- Pasta -->
-  <h1 class="Menu_h1">Pasta</h1>
+  <h1 class="Menu_h1" data-aos="fade-right">Pasta</h1>
   <div class="main_container">
     <div class="card">
-      <div class="perticular_card">
-        <img src="img/menu3.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu3.jpg" alt="" data-aos="zoom-in">
         <h3>Spaghetti aglio e olio</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 6,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu3.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu3.jpg" alt="" data-aos="zoom-in">
         <h3>Penne all’ arrabbiata</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 6,99 USD</h3>
         <button>Product not available</button>
       </div>
-      <div class="perticular_card">
-        <img src="img/menu3.jpg" alt="">
+      <div class="perticular_card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img src="img/menu3.jpg" alt="" data-aos="zoom-in">
         <h3>Tagliatelle alla romana</h3>
-        <p>Describe the product here in a few short sentences. It's a good idea to start with the ingredients used
+        <p data-aos="flip-left">Describe the product here in a few short sentences. It's a good idea to start with the
+          ingredients used
           there. Before
           you start writing, think carefully about what you should describe. Pay attention to the details...</p>
         <h3>from 6,99 USD</h3>
@@ -193,14 +207,14 @@
   </div>
 
   <div class="button_container">
-    <button class="see_more">See more</button>
+    <button class="see_more" data-aos="fade-left">See more</button>
   </div>
 
 
   <!-- footer section -->
   <div class="container">
     <div class="inside_container">
-      <div class="map">
+      <div class="map" data-aos="zoom-in">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.869168066132!2d77.60410387365009!3d12.916129316094898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1592e33f3b37%3A0xe177de962e917ed1!2sThe%20Engineer&#39;s%20PG!5e0!3m2!1sen!2sin!4v1727623095456!5m2!1sen!2sin"
           loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -228,6 +242,7 @@
   </div>
 
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
 
